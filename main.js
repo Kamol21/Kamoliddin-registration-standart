@@ -12,6 +12,7 @@ elForm.addEventListener("submit", function (evt) {
   kod2=kod2.value
   if (kod == kod2) {
     obg()
+    alert("muvafaqiyatli yakunlandi console ga qarang")
   } else {
     alert("kod ikkixil yozildi")
   }
